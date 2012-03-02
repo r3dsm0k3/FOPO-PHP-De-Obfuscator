@@ -2,12 +2,20 @@
 <?php
 fwrite(STDOUT, "
        
-       
+     /**
+     * ----------------------------------------------------------------------------
+     * "THE BEER-WARE LICENSE" (Revision 42):
+     * <r3dsm0k3-ajithredsmoke@gmail.com> wrote this file. As long as you retain this notice you
+     * can do whatever you want with this stuff. If we meet some day, and you think
+     * this stuff is worth it, you can buy me a beer in return.-r3dsm0k3
+     * ----------------------------------------------------------------------------
+     **/
+
     /**
      * PHP De-Obfuscator for http://fopo.com.ar 
      *
      * @authors r3dsm0k3 & Himanshu (For nullcon JailBreak CTF 2012)
-     * Only works with medium obfuscation from FOPO as of now.
+     * Works with low and medium level obfuscations completely,talking about hard,it converts 90% of the code,but variable names.
      *
      * @pre-requisite
      *
@@ -23,7 +31,7 @@ fwrite(STDOUT, "
      * @return Writes the de-obfuscated code to the specified output file.If no output filename is provided,creates decoded.php in the same directory.
      * Makes the script readable,But better use jsbeautifier.org or something for beautification of code.
      * 
-     */
+     **/
      
      ");
     if($argv[1]!=""){
