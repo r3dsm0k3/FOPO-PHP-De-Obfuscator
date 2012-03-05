@@ -12,7 +12,7 @@ fwrite(STDOUT, "
      **/
 
     /**
-     * PHP De-Obfuscator for http://fopo.com.ar 
+     * PHP De-Obfuscator for http://fopo.com.ar v 1.0
      *
      * @authors r3dsm0k3 & Himanshu (For nullcon JailBreak CTF 2012)
      * Works with low and medium level obfuscations completely,talking about hard,it converts 90% of the code,but variable names.
